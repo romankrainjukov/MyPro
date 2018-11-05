@@ -1,0 +1,115 @@
+
+body {
+	background-image: linear-gradient(to bottom right, lightblue, lightcyan); 
+}
+
+p {
+	color: black;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 500;
+	text-align: justify;
+	text-indent: 10pt;
+
+}
+
+h1 {
+	font-family: 'Vollkorn SC', serif;
+	color: #0000FF;
+	font-size: 50px;
+	font-style: normal;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Cormorant Unicase', serif;
+	color: #0099FF;
+	font-size: 25px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+}
+
+h3 {
+font-family: 'Cormorant Unicase', serif;
+	color: #0099FF;
+	font-size: 20px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+}
+
+table {
+	background-color: blue;
+	border: 5px outset #6633FF;
+	border-spacing: 5px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	width: 100%;
+	background-image: url("Images/light-art-blue.jpg");
+}
+
+th {
+	background-image: linear-gradient(to bottom right, lightgreen, lightcyan);
+	border: 5px  #9966FF;
+	border-style: double;
+	padding: 3px;
+	font-family: 'Vollkorn SC', serif;
+	font-size: 25px;
+	color: #0000FF;
+	width: 25%;
+
+}
+
+td {
+	background-image: linear-gradient(to bottom right, lightgreen, lightcyan);
+	border: 2px #9966FF;
+	border-style: ridge;
+	padding: 10px;
+	padding-left: 10px;
+	font-family: 'Roboto Slab', serif;
+	text-align: justify;
+	color: black;
+	font-size: 18px;
+}
+
+a {
+	color: #0099FF; 
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+ul {
+	color: black; 
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: justify;
+	text-indent: 10pt;
+}
+
+.flag {
+	padding-top: 60px;
+	padding-bottom: 50px ;
+}
+
+	
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ } 
+
+.bg_img_Italy {
+	background-image: url("Images/Calabria.png");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg_img_Estonia {
+	background-image: url("Images/Tartu.png");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
